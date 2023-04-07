@@ -58,3 +58,7 @@ em {
     font-size: 1.6em;
     font-weight: bold;
 }
+#textarea {
+    font-size: 1.8rem;
+    text-justify: auto;
+}
