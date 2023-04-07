@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de MMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="area"><!--Inicio div area-->
+        <div class="container"><!--Inicio div container-->
+            <h1>Calculadora de IMC</h1>
+
+            <div class="input-area">
+                <h2>Nome:</h2>: </h2>
+                <input id="nome" type="text" placeholder="Digite sua nome" required>
+            </div>
+            <div class="input-area">
+                <h2>Altura (cm):</h2>: </h2>
+                <input id="altura" type="number" placeholder="Digite sua altura" required>
+            </div>
+            <div class="input-area">
+                <h2>Peso(kg): </h2>
+                <input id="peso" type="number" placeholder="Digite seu peso" required>
+            </div>
+
+            <button onclick="calcular()">Cálcular</button>
+            <br>
+            <textarea name="" id="textarea" cols="4" rows="4"></textarea> 
+        </div><!--Fim div container-->
+    </div><!--Fim div area-->
+    <br><br>
+        <center><em>&copy; Luciano 2023</em></center>
+    <script src="script.js"></script>
+
+</body>
+</html>
